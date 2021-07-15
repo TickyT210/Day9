@@ -1,0 +1,36 @@
+Table, th, td {
+    border: 1px solid #0099ff;
+}
+#table1 {
+    background-color: green;
+
+}
+#table2 {
+    background-color: darkred;
+}
+th {
+    height: 50px;
+    background-color:darkblue;
+    color: yellowgreen;
+    
+}
+h1 {
+    color: yellow;
+    border: 3px solid #0099ff;
+    border-radius: 12px;
+    width: 250px;
+}
+td {
+    text-align: center;
+    padding: 5px;
+    color: yellow;
+}
+tr:hover {background-color:dodgerblue; color: yellow;}
+
+* {
+    box-sizing:border-box;
+}
+
+#table3 {
+    border: 2px solid black;
+}
