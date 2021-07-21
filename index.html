@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tristan T's Form</title>
+<link ref="stylesheet" href="stylesheet2.css">
+</head>
+<body style="Background-color: rgb(60, 230, 250); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+<h1 id="h1form" style="color: orangered; font-size:300%; border: 7px solid dodgerblue; border-radius: 12px; width: 525px;">Fill out for accordingly</h1>
+<table id="table3" style="border: 4px solid black;">
+<form action="mailto:W468759@campus.nscc.ca?subject=From%20My%20Website"
+method="post" enctype="text/plain">
+
+<br>
+<tr>
+    <td>
+<b>First and Last name:</b><br>
+<input type="text" name="YourName" minlength="2" required="required" size="50"><br></td>
+<td><label for="Age"><b>Age:</b></label><br>
+<input type="number" id="Age" name="Age" min="16" max="200"><br></td>
+<td>
+<label for="favcolor"><b>Select your favorite color:</b></label>
+</td>
+<td>
+<input type="color" id="favcolor" name="favcolor" value="#ff0000"><br></td>
+
+<td>
+    
+<b>E-mail</b><br>
+<input type="email" name="mail" required="required"><br></td>
+</tr>
+<tr>
+<td><p>
+    <label><b>Enter your phone number in the format (123)456-7890</b>
+     (<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
+      <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> -
+      <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/>
+    </label>
+   </p></td>
+
+    <td>  
+<label for="Province"><b>Select your Province:</b></label>
+<select id="Province" name="Province">
+<option value="Nova Scotia">Nova Scotia</option>
+<option value="Prince edward Island">Prince Edward Island</option>
+<option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+<option value="Quebec">Quebec</option>
+<option value="Ontario">Ontario</option>
+<option value="Saskatchewan">Saskatchewan</option>
+<option value="British Columbia">British Columbia</option>
+<option value="Yukon">Yukon</option>
+<option value="North-West Territories">North-West Territories</option>
+<option value="Nunavut">Nunavut</option>
+<option value="New Brunswick">New Brunswick</option>
+<option value="Alberta">Alberta</option>
+<option value="Manitoba">Manitoba</option>
+</select>
+       </td>
+      
+           <td>
+<label for="TDate"><b>Today's Date:</b></label>
+<input type="date" id="TDate" name="TDate" required="required">
+</td>
+</tr>
+
+</table>
+<br>
+
+<input type="submit" value="Send">
+    <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
